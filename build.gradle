@@ -1,0 +1,9 @@
+apply plugin: com.buyi.gradle.BrewinPlugin
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.2'
+}
+
+brewin{
+    message = "Wen bin sb!"
+}
+
